@@ -12,18 +12,19 @@ export default function Login() {
         <h1>Please Log In</h1>
           <form>
             <label className='text-input'>
-              <p>Username</p>
+              <p>Email:</p>
               <input type="text" />
             </label>
             <label className='text-input'>
-              <p>Password</p>
+              <p>Password:</p>
               <input type="password" />
             </label>
-            <div className='btn-login'>
+            <div className='btn'>
               <button type="submit">
                 Submit
               </button>
             </div>
+            <a href='#'>Forgot Password?</a>
           </form>
       </div>
     </div>

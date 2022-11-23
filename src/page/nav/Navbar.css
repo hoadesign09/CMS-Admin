@@ -1,0 +1,20 @@
+.navlink{
+    padding-top: 20px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    background-color: #233044;
+    width: 200px;
+    height: 100vh;
+}
+@media screen and (max-width: 680px) {
+    .nav-menu{
+        padding: 0;
+
+    }
+}

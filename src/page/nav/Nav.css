@@ -1,0 +1,13 @@
+.wrapper{
+    display: flex;
+}
+.flex-item-content{
+    width: 100%;
+}
+.header-content{
+    display: block;
+}
+.main-content{
+    background-color: #f5f5f5;
+    height: calc(100vh + 30px);
+}

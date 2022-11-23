@@ -1,8 +1,11 @@
 import React from "react";
 
+import QRscanner from "../../component/qrcode/index"
+
 function Checkin() {
+
     return(
-        <p>Checkin components Test</p>
+        <QRscanner/>
     )
 }
 

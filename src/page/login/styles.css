@@ -4,19 +4,29 @@
     flex-direction: column;
     align-items: center;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
 .container{
     border: 2px solid black;
-    padding: 20px
+    padding: 80px 50px 100px 50px;
 }
+.container h1{
+    padding-bottom: 50px;
+}
+
 .text-input p{
     margin: 0;
 }
 .text-input input{
     margin-bottom: 20px;
+    width: 200px;
 }
-.btn-login{
-    /* align-items: center; */
+.btn{
+    padding-bottom: 10px;
 }
+
 @media screen {
     
 }
