@@ -1,11 +1,9 @@
 import React, {useState} from 'react';
 import "./styles.css";
 
+
 export default function Login() {
   
-  const[Username, setUsername] = useState("");
-  const[password, setPassword] = useState("");
-
   return(
     <div className="login-wrapper">
       <div className='container'>

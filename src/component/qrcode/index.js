@@ -27,8 +27,6 @@ function QRscanner() {
                     onScan={handleScan}
                 />
             </div>
-
-
             <TextareaAutosize
                 style={{fontSize:18, width:320, height:100}}
                 rowsMax={4}

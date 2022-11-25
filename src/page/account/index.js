@@ -1,8 +1,12 @@
 import React from "react";
+import GetUser from "../../API/GetUser";
 
 function Account() {
     return(
-        <p>Account components Test</p>
+        <div>
+            <GetUser />
+        </div>
+
     )
 }
 
