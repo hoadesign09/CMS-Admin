@@ -6,21 +6,23 @@ function Navbar() {
     return (
         <>
             <div className='nav-menu'>
-                <Link to="/" className="navlink" activeStyle>
-                    Home
-                </Link>
-                <Link to='/dashboard' className="navlink" activeStyle>
-                    Dashboard
-                </Link>
-                <Link to='/checkin'className="navlink" activeStyle>
-                    Check In
-                </Link>
-                <Link to='/checkout' className="navlink" activeStyle>
-                    Check Out
-                </Link>
-                <Link to="/account" className="navlink" activeStyle>
-                    Account
-                </Link>
+                <div className='menu'>
+                    <Link to="/" className="navlink" activeStyle>
+                        Home
+                    </Link>
+                    <Link to='/dashboard' className="navlink" activeStyle>
+                        Dashboard
+                    </Link>
+                    <Link to='/checkin'className="navlink" activeStyle>
+                        Check In
+                    </Link>
+                    <Link to='/checkout' className="navlink" activeStyle>
+                        Check Out
+                    </Link>
+                    <Link to="/account" className="navlink" activeStyle>
+                        Account
+                    </Link>
+                </div>
             </div>
             
 
