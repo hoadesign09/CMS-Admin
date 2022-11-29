@@ -22,7 +22,7 @@ function QRscanner() {
 
       function CheckinPost() {
         axios
-          .put(`${baseURL}/1`, {
+          .post(`${baseURL}/1`, {
             status: "Checkin Complete!",
             message: "Congratulations! Keeping to checkin everyday!"
           })
@@ -33,7 +33,6 @@ function QRscanner() {
 
 
     return (
-      <div className='scanqr'>     
           <center>
             <div className='camera'>
                 <QrReader
@@ -43,8 +42,6 @@ function QRscanner() {
                 />
             </div>
           </center>
-
-      </div>
     );
   }
   

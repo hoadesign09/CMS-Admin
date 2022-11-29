@@ -9,7 +9,8 @@ function Header() {
 
     const current = new Date();
     const [data, setData] = useState([])
-    const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
+    const currentDateTime =  Date().toLocaleString();
+    const date = `${current.getHours()}:${current.getMinutes()} - ${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
     
     useEffect(() =>{
         axios.get(baseURL).then((res) => {
@@ -23,8 +24,8 @@ function Header() {
                 <p>{data.full_name}</p>
             </div>
             <div className="current-date">
-                <p>Today is {date}</p>
-
+                <p>{date}</p>
+                {/* <p>{currentDateTime}</p> */}
             </div>
         </div>
     )

@@ -3,6 +3,9 @@ import "./styles.css";
 
 
 export default function Login() {
+  const [username, Setusername] = useState("");
+  const [password, Setpassword] = useState("");
+  const [data, Setdata] = useState([]);
   
   return(
     <div className="login-wrapper">
