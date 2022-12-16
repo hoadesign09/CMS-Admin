@@ -76,7 +76,8 @@
     background-color: #f8f8fa;
    }
    .react-calendar__tile--range {
-    background: #f8f8fa;
+    background: #e8e8e8;
+
     color: #6f48eb;
     border-radius: 0;
    }

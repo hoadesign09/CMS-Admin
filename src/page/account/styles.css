@@ -1,0 +1,78 @@
+.container-account{
+    /* width: 100%; */
+    display: flex;
+    padding: 50px 50px;
+}
+.account-profile{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.account-profile h6{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #9fa8b9;
+}
+.account-profile h5{
+    margin: 0 0 0.25rem 0;
+    font-size: 1.25rem;
+}
+.info-form{
+    width: 70%;
+}
+.info-form h5{
+    margin: 0;
+    font-size: 1rem;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+.about{
+   padding: 50px 50px;
+}
+.personal{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 30px;
+}
+.address{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.form-group{
+    display: grid;
+    grid-template-rows: auto;
+    padding-top: 10px;
+}
+.form-control{
+    width: 80%;
+    padding: 10px 20px;
+}
+label{
+    padding-bottom: 5px;
+}
+.text-right{
+    padding: 20px 25px 0 0;
+    float: right;
+}
+.btn{
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}

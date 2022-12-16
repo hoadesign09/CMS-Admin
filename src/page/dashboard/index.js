@@ -13,7 +13,7 @@ function Dashboard() {
     <div className="dash-main">
 
       <div className="calender">
-        <h1>Calendar of Year</h1>
+        <h1>Calendar of Year</h1>      
         <Calendar
           onChange={setDate}
           value={date}

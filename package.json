@@ -1,5 +1,6 @@
 {
   "name": "checkinapp",
+  "homepage": "admin.hoadesign.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.1.3",
     "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
     "express-stormpath": "^4.0.0",
     "react": "^18.2.0",
     "react-calendar": "^4.0.0",
@@ -23,6 +25,7 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "reactjs-popup": "^2.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Popup from "reactjs-popup";
 import "./Nav.css"
 import Navbar from "./Navbar";
 import Header from "../header";
@@ -16,6 +17,9 @@ function Nav() {
   };
     return(
     <>
+        <Popup>
+            <div>Popup content here !!</div>
+        </Popup>
         <div className="wrapper">
           <Router>
               <div className={`items ${showMenu ? "hidden" : ""}`}>

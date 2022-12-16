@@ -14,10 +14,10 @@ function Navbar() {
                         Dashboard
                     </Link>
                     <Link to='/checkin'className="navlink" activeStyle>
-                        Check In
+                        Member
                     </Link>
                     <Link to='/checkout' className="navlink" activeStyle>
-                        Check Out
+                        Admin Manager
                     </Link>
                     <Link to="/account" className="navlink" activeStyle>
                         Account
