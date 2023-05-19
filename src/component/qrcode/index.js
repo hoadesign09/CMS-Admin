@@ -4,7 +4,7 @@ import {QrReader} from 'react-qr-reader';
 
 import "./styles.css";
 
-const  baseURL = "https://my-json-server.typicode.com/hoadesign09/ApiServer/Checkin/1" ;
+const  baseURL = "#" ;
 
 function QRscanner() {
 

@@ -9,7 +9,7 @@ function Header() {
 
     const current = new Date();
     const [data, setData] = useState([])
-    const currentDateTime =  Date().toLocaleString();
+    // const currentDateTime =  Date().toLocaleString();
     const date = `${current.getHours()}:${current.getMinutes()} - ${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
     
     useEffect(() =>{

@@ -5,8 +5,8 @@ import "./Nav.css"
 import Navbar from "./Navbar";
 import Header from "../header";
 import Dashboard from "../dashboard";
-import Checkin from "../checkin";
-import Checkout from "../checkout";
+import UserPage from "../userPage";
+import AdminPage from "../adminPage";
 import Home from "../main";
 import Account from "../account";
 
@@ -51,8 +51,8 @@ function Nav() {
                   <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/dashboard" element={<Dashboard />} />
-                    <Route path="/checkin" element={<Checkin />} />
-                    <Route path="/checkout" element={<Checkout />} />
+                    <Route path="/user-page" element={<UserPage />} />
+                    <Route path="/admin-page" element={<AdminPage />} />
                     <Route path="/account" element={<Account />} />
                   </Routes>
                 </div>

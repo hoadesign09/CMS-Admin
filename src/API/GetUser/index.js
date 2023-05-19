@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const  baseURL = "https://my-json-server.typicode.com/hoadesign09/ApiServer/login/1" ;
+const  baseURL = "#" ;
 
 function GetUser() {
     const [data, setData] = useState([])

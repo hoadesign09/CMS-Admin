@@ -2,12 +2,12 @@ import React from "react";
 
 import "./styles.css";
 
-function Checkin() {
+function AdminPage() {
 
     return(
         <div className="container-main">
             <div className="context">
-                <p>Chào Bảo! Hôm nay của bạn thế nào?</p>
+                <p>Chào! Hôm nay của bạn thế nào?</p>
                 <p>Danh sách các quản trị viên website <strong>movie.hoadesign.net</strong></p>
             </div>
             <div className="buttons">
@@ -283,4 +283,4 @@ function Checkin() {
     )
 }
 
-export default Checkin;
+export default AdminPage;

@@ -13,10 +13,10 @@ function Navbar() {
                     <Link to='/dashboard' className="navlink" activeStyle>
                         Dashboard
                     </Link>
-                    <Link to='/checkin'className="navlink" activeStyle>
+                    <Link to='/user-page'className="navlink" activeStyle>
                         Member
                     </Link>
-                    <Link to='/checkout' className="navlink" activeStyle>
+                    <Link to='/admin-page' className="navlink" activeStyle>
                         Admin Manager
                     </Link>
                     <Link to="/account" className="navlink" activeStyle>
