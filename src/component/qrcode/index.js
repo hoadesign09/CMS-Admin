@@ -1,49 +1,49 @@
-import React, {useState, useEffect} from 'react'
-import axios from 'axios';
-import {QrReader} from 'react-qr-reader';
+// import React, {useState, useEffect} from 'react'
+// import axios from 'axios';
+// import {QrReader} from 'react-qr-reader';
 
-import "./styles.css";
+// import "./styles.css";
 
-const  baseURL = "#" ;
+// const  baseURL = "#" ;
 
-function QRscanner() {
+// function QRscanner() {
 
-    const [qrscan, setQrscan] = useState("");
+//     const [qrscan, setQrscan] = useState("");
 
-    const handleError = err => {
-    console.error(err)
-    }
+//     const handleError = err => {
+//     console.error(err)
+//     }
 
-    useEffect(() => {
-        axios.get(`${baseURL}/1`).then((response) => {
-          setQrscan(response.data);
-        });
-      }, []);
+//     useEffect(() => {
+//         axios.get(`${baseURL}/1`).then((response) => {
+//           setQrscan(response.data);
+//         });
+//       }, []);
 
-      function CheckinPost() {
-        axios
-          .post(`${baseURL}/1`, {
-            status: "Checkin Complete!",
-            message: "Congratulations! Keeping to checkin everyday!"
-          })
-          .then((response) => {
-            setQrscan(response.data);
-          });
-      }
+//       function CheckinPost() {
+//         axios
+//           .post(`${baseURL}/1`, {
+//             status: "Checkin Complete!",
+//             message: "Congratulations! Keeping to checkin everyday!"
+//           })
+//           .then((response) => {
+//             setQrscan(response.data);
+//           });
+//       }
 
 
-    return (
-          <center>
-            <div className='camera'>
-                <QrReader
-                    delay={300}
-                    onError={handleError}
-                    onScan={CheckinPost}
-                />
-            </div>
-          </center>
-    );
-  }
+//     return (
+//           <center>
+//             <div className='camera'>
+//                 <QrReader
+//                     delay={300}
+//                     onError={handleError}
+//                     onScan={CheckinPost}
+//                 />
+//             </div>
+//           </center>
+//     );
+//   }
   
-  export default QRscanner;
+//   export default QRscanner;
   
